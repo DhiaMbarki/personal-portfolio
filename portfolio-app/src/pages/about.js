@@ -1,9 +1,12 @@
 import React, {useEffect, useRef} from "react";
 import {TimelineLite ,TweenMax, Power3} from 'gsap';
 
-import img1 from "./images/img1.jpg";
-import img2 from "./images/img2.jpg";
+import img2 from "./images/img1.jpg";
+import img1 from "./images/img2.jpg";
 import arrow from './images/arrow-right.svg'
+import "./about.scss";
+
+
 
 const About = () => {
   let app = useRef(null)
@@ -51,19 +54,23 @@ const About = () => {
             <div className="hero-content-inner" ref={el => content = el}>
               <h1>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">Relieving the burden</div>
+                  <div className="hero-content-line-inner">Hello,</div>
                 </div>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">of disease caused</div>  
+                  <div className="hero-content-line-inner">My name is Dhia Mbarki, </div>  
                 </div>
+                
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">by behaviors.</div>
+                  <div className="hero-content-line-inner">And I'm a Full stack Developer.</div>
                 </div>
+                
               </h1>
               <p>
-                Better treats serious cardiometabolic diseases to transform
-                lives and reduce healthcare utilization through the use of
-                digital therapeutics.
+              
+🎓 Newly graduated from RBK Tunisia as a full stack developer.
+              </p>
+              <p>
+              -Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas with strong problem-solving skills and a proven track record in creation and design.
               </p>
               <div className="btn-row">
                 <button className="explore-button">Explore
