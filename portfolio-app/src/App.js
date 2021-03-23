@@ -5,15 +5,21 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './pages/about';
 import workExp from './pages/workExp';
 import Contact from './pages/contact';
+import Slide from './pages/slide';
+
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/about' component={About} />
         <Route path='/workExp' component={workExp} />
         <Route path='/contact-us' component={Contact} />
+        <div>
+       
+        <About/>
+        <Slide/>
+        </div>
       </Switch>
     </Router>
   );
