@@ -6,6 +6,7 @@ import About from './pages/about';
 import workExp from './pages/workExp';
 import Contact from './pages/contact';
 import Slide from './pages/slide';
+import Home from './pages/Home';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
        
         <About/>
         <Slide/>
+        <Home/>
         </div>
       </Switch>
     </Router>
