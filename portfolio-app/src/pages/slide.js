@@ -26,7 +26,7 @@ const content = [
 
 const slide = () => (
   <div className="siz">
-      <h1 className="cen">explore more about me </h1>
+      <h1 className="cen">Career Summary </h1>
     <Slider className="slider-wrapper" autoplay="1500">
       {content.map((item, index) => (
         <div
