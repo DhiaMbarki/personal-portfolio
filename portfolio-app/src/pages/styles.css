@@ -4,7 +4,7 @@
   text-align: center;
 }
 .siz {
-  height: 500px;
+  height: 600px;
   width: 50%;
 }
 body {
@@ -416,7 +416,14 @@ img {
   }
 }
 .one{
-  margin-left: 850px;
+  margin-left: 860px;
   position: absolute;
-  top: 1300px;
+  top: 1330px;
+  
+}
+.two{
+
+  margin-left: 270px;
+ 
+
 }
