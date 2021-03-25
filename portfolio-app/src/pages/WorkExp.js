@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { textIntro } from "./animations/animate";
 import Mouse from "./mouse/mouse";
+import Skills from'./skills/Skills'
+
 
 const WorkExp = () => {
   let text = useRef(null);
@@ -103,6 +105,8 @@ const WorkExp = () => {
         </div>
       </div>
       <Mouse />
+<p className="p">Skills</p>
+      <Skills/>
     </div>
   );
 };
