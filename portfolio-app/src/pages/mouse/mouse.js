@@ -7,7 +7,9 @@ const Mouse = () => {
 			<circle class="scrolldown-p1" cx="5" cy="15" r="2" />
 			<circle class="scrolldown-p2" cx="5" cy="15" r="2" />
 		</svg>
+		
 	</div>
+	
 </div>
 };
 

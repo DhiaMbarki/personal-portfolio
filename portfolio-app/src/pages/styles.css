@@ -2,6 +2,7 @@
 
 .cen {
   text-align: center;
+  color: black;
 }
 .siz {
   height: 600px;
@@ -418,7 +419,7 @@ img {
 .one{
   margin-left: 860px;
   position: absolute;
-  top: 1330px;
+  top: 1180px;
   
 }
 .two{

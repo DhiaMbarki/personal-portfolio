@@ -6,7 +6,6 @@ import About from "./pages/about";
 import workExp from "./pages/WorkExp";
 import Contact from "./pages/contact";
 import Slide from "./pages/slide";
-import Home from "./pages/Home";
 import Textanimation from "./pages/Textanimation";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <div>
           <About />
           <Slide />
-          <Home />
           <Textanimation />
         </div>
       </Switch>

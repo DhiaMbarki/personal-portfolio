@@ -7,7 +7,9 @@ import Slider from "react-slick";
 import { textIntro } from "./animations/animate";
 import Mouse from "./mouse/mouse";
 import Skills from'./skills/Skills'
-
+import Blogs from './Blogs/Blogs'
+import Cards from './Shared/Cards'
+import Card2 from './Shared/Card2'
 
 const WorkExp = () => {
   let text = useRef(null);
@@ -94,6 +96,7 @@ const WorkExp = () => {
               <div className={classes.slick}>Front-End</div>
               <div className={classes.slick}>Back-end</div>
             </Slider>
+          
           </div>
         </div>
         <div className={classes.image}>
@@ -102,11 +105,19 @@ const WorkExp = () => {
             src="/images/developer.svg"
             alt=""
           />
+
+                <Mouse />
+            
+
+<Skills/>
+
         </div>
       </div>
-      <Mouse />
-<p className="p">Skills</p>
-      <Skills/>
+{/* <p className="p">Skills</p> */}
+      {/* <Blogs/>  */}
+      <Cards/>
+      <Card2/>
+
     </div>
   );
 };

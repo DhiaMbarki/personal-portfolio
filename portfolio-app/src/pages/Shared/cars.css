@@ -1,0 +1,56 @@
+.car {
+    height: 350px;
+    width: 850px;
+    position: relative;
+    top: -1450px;
+    border: 1px solid gray;
+  }
+  
+  
+  .h {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4caf50;
+  }
+  
+  .p {
+    text-indent: 40px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+  
+  .a {
+    text-decoration: none;
+    color: #008cba;
+  }
+
+
+  .car1 {
+    height: 350px;
+    width: 850px;
+    position: relative;
+    top: -800px;
+    border: 1px solid gray;
+  }
+  
+  
+  .h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4caf50;
+  }
+  
+  .p1 {
+    text-indent: 40px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-size: 40px;
+  }
+  
+  .a1 {
+    text-decoration: none;
+    color: #008cba;
+  }
+  
+  
+

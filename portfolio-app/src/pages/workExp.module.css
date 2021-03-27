@@ -1,10 +1,9 @@
 .container {
-  /* height: calc(100vh - 50px); */
+   /* height: calc(100vh - 50px);  */
   /* font-family: 'Cabin Sketch', cursive; */
 }
 
 .viewPage {
-  background-color: rgb(244, 247, 250);
   /* height: calc(100vh - 50px); */
   width: 100vw;
 }
@@ -133,3 +132,4 @@ font-size: 15px;
     display: none;
   }
 }
+
