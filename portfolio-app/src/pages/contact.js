@@ -59,6 +59,7 @@ const Contact = () => {
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
       </div>
+      <br></br>
 
       <button
         type="submit"

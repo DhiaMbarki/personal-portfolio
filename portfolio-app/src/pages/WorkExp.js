@@ -10,7 +10,7 @@ import Skills from'./skills/Skills'
 import Blogs from './Blogs/Blogs'
 import Cards from './Shared/Cards'
 import Card2 from './Shared/Card2'
-
+import Dos from './Dos'
 const WorkExp = () => {
   let text = useRef(null);
   const [settings1, setSettings1] = useState({
@@ -117,7 +117,7 @@ const WorkExp = () => {
       {/* <Blogs/>  */}
       <Cards/>
       <Card2/>
-
+<Dos/>
     </div>
   );
 };
