@@ -3,16 +3,19 @@
     padding: 0px;
     overflow-x: hidden;
     font-family: 'Rokkitt', serif;
+
     
     }
     ::-webkit-scrollbar{
       display: none;
     }
+
     
     .App {
       font-family: sans-serif;
       width: 100%;
     box-sizing: border-box;
+    
     }
     
     .skills{
@@ -130,5 +133,4 @@
       background-size: cover;
       background-attachment: fixed;
     }
-    
-    
+   
