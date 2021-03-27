@@ -7,7 +7,6 @@ import workExp from "./pages/WorkExp";
 import Contact from "./pages/contact";
 import Slide from "./pages/slide";
 import Textanimation from "./pages/Textanimation";
-
 function App() {
   return (
     <Router>
@@ -22,6 +21,7 @@ function App() {
         </div>
       </Switch>
     </Router>
+    
   );
 }
 

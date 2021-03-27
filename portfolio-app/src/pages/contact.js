@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
 import { db } from "../firebase";
+import Footer from '../pages/footer/Footer'
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -35,7 +36,7 @@ const Contact = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us 🤳</h1>
+      <h1>Contact Me 🤳</h1>
 
       <label>Name</label>
       <input
@@ -65,7 +66,9 @@ const Contact = () => {
       >
         Submit
       </button>
+     <Footer/>
     </form>
+    
   );
 };
 

@@ -1,0 +1,32 @@
+.social-wrapper {
+    padding: 50px 20px;
+    margin-left:1%;
+
+}
+  
+  .social {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.05s;
+  }
+  
+  .social:hover {
+    transform: scale(1.1);
+  }
+  
+  .youtube {
+    color: #c4302b;
+  }
+  
+  .faFacebook  {
+    color: rgb(10, 20, 173);
+  }
+  
+  .instagram {
+    color: #cd486b;
+  }
+  
+  .github {
+    color: #000;
+  }
+  
